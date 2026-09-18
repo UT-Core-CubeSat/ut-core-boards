@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "IC1_reduced_clearance"
+  (constraint clearance (min 0.10mm))
+  (condition "A.insideCourtyard('IC16') || B.insideCourtyard('IC16')")
+)
+
+(rule "IC1_reduced_width"
+  (constraint track_width (min 0.10mm))
+  (condition "A.insideCourtyard('IC16')")
+)

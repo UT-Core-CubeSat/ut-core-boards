@@ -1,0 +1,79 @@
+(footprint "16340 Battery"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "70007fb2-ec30-4377-97ce-544f756e5626")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "16340 Battery"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "87232ff8-8021-4475-b605-b96c5b0cf03b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2855b34-4737-4767-859d-330d1ce26ce1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75f52252-974c-4403-935a-e90286c067fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole roundrect
+		(at 0 -17.075 180)
+		(size 5 1.2)
+		(drill oval 4.5 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "c598f006-6879-4932-93a3-3c88308935c6")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 17.075 180)
+		(size 5 1.2)
+		(drill oval 4.5 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "c08c5fa8-9c54-452f-b23b-5b459cf0a666")
+	)
+	(embedded_fonts no)
+)

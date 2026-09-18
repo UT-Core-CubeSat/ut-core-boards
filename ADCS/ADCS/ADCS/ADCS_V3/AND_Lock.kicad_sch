@@ -1,0 +1,2383 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9fdd2b33-7d72-4968-b71e-5f19f0d16c6c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:MMBT2222A"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT2222A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT2222A_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT2222A_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:MMBTA94"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBTA94"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/request/datasheet/mmbta92.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.3A Ic, 400V Vce, PNP High Voltage Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBTA94_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MMBTA94_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 133.35 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05ba8347-3ef2-44a9-a054-9e7e41b985be")
+	)
+	(junction
+		(at 142.24 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06adf7d5-0549-4492-9092-454171da9d03")
+	)
+	(junction
+		(at 133.35 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a19938f-5a39-4ee2-9e53-41a02f501646")
+	)
+	(junction
+		(at 142.24 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78f9aac6-7428-4057-bf16-e78c80d04e0f")
+	)
+	(wire
+		(pts
+			(xy 133.35 114.3) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d0f91b-7046-4b5c-a78b-2bc35f97d404")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 127 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c433eaf-58f3-4a85-b772-f56a258cf406")
+	)
+	(wire
+		(pts
+			(xy 127 77.47) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6442335c-e565-4318-abee-3f1c2a50d17a")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952bf677-8e01-4875-954e-355fa1f546f9")
+	)
+	(wire
+		(pts
+			(xy 133.35 69.85) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83b803e-0197-4471-82c5-8b4ba36648b2")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92ce640-72dd-477d-91b6-b2ee2f8f0da1")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.85) (xy 133.35 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf5f841-c348-49e4-bfbf-3fc1572d707f")
+	)
+	(wire
+		(pts
+			(xy 133.35 114.3) (xy 132.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd3f2fb-6d1f-4ffd-ab23-bf91a6efe2be")
+	)
+	(hierarchical_label "LCK2_IN"
+		(shape input)
+		(at 111.76 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "034472a7-b858-4b71-ae5d-55de8ecc4917")
+	)
+	(hierarchical_label "LCK1_1"
+		(shape input)
+		(at 116.84 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1510b2ca-bfdb-4b29-aaa3-573647582eaa")
+	)
+	(hierarchical_label "LCK1_2"
+		(shape input)
+		(at 127 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "250ad0c8-29e5-4c36-86cf-3870703fda44")
+	)
+	(hierarchical_label "LCK1_OUT"
+		(shape input)
+		(at 142.24 67.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "260e8ea2-b5f1-4272-9930-63999917621c")
+	)
+	(hierarchical_label "LCK1_2"
+		(shape input)
+		(at 127 130.81 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bedaab0-d3de-4d39-8a63-ea8b975dea40")
+	)
+	(hierarchical_label "RST"
+		(shape input)
+		(at 171.45 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cff3c80-aad5-4967-9435-6411132ae07a")
+	)
+	(hierarchical_label "LCK1_1"
+		(shape input)
+		(at 116.84 57.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9f90e84-662d-4872-bcf9-53e16053dc4f")
+	)
+	(hierarchical_label "LCK1_IN"
+		(shape input)
+		(at 111.76 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe8f3030-798d-4933-b5e7-ae4a664a60d0")
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA94")
+		(at 116.84 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bb8cb6f-900e-4aab-800b-217ea0e30a1a")
+		(property "Reference" "Q3"
+			(at 116.84 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBTA94"
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 114.935 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta92.pdf"
+			(at 116.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.3A Ic, 400V Vce, PNP High Voltage Transistor, SOT-23"
+			(at 116.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ead32f0-5238-4a24-89a7-8f193521af27")
+		)
+		(pin "3"
+			(uuid "48696bba-aee8-46e5-8298-fa6965cfa498")
+		)
+		(pin "1"
+			(uuid "115d5d74-6e61-4c04-b6ae-0adc70e2c269")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 127 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "174d1f5c-0bed-449d-815f-99586872bbbe")
+		(property "Reference" "Q5"
+			(at 127 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 127 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 128.905 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1f729e82-bc42-4dd0-9991-7c1f25cfe7f7")
+		)
+		(pin "1"
+			(uuid "c0c97ff9-6040-426b-a5de-0ffa79ca4af0")
+		)
+		(pin "2"
+			(uuid "3038cb4f-9c14-4bf7-924b-772e25eea93d")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b85c544-f545-4ef9-b7ef-31c419896508")
+		(property "Reference" "R38"
+			(at 135.89 71.1199 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5kR"
+			(at 135.89 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f85d211-efa1-4421-b456-9e2b4dbc3d02")
+		)
+		(pin "2"
+			(uuid "01af6cf1-95fa-4509-bddf-75a0656d2a0a")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.24 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d41f40b-95d1-4237-b478-409ffb78bd86")
+		(property "Reference" "C61"
+			(at 144.78 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 144.78 118.1162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2c13844-e42d-466a-9532-b593eb5d70d5")
+		)
+		(pin "1"
+			(uuid "9c7d8286-df13-4e5b-a790-988231bea6ba")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "C61")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43343938-acf4-4300-8b09-d9a08010204e")
+		(property "Reference" "R37"
+			(at 129.54 126.9999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 129.54 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52bd2dc2-559c-4eb8-b1fd-60e53ac59405")
+		)
+		(pin "2"
+			(uuid "22d46c1a-98d9-4d5d-bbbf-6b0f1815ae1d")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f95301a-3bf4-4c63-b73d-1c389df7471c")
+		(property "Reference" "#PWR088"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c3c2039-6071-4252-bcfd-fef69e8e5c6a")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f45d01a-18a1-4a71-bd35-cdb991be5f54")
+		(property "Reference" "R39"
+			(at 135.89 115.5699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5kR"
+			(at 135.89 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa4fb3b7-f5f5-41a3-8a8e-6203fe4eba8d")
+		)
+		(pin "2"
+			(uuid "85e5d6c7-4fcb-4c9e-aa21-e2ae8ce00edc")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69572030-8f54-4cdd-a96b-ea764262144d")
+		(property "Reference" "R36"
+			(at 129.54 82.5499 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 129.54 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b3ad93-1504-4af6-a390-b3aa4b89e108")
+		)
+		(pin "2"
+			(uuid "ab92ec2f-11a3-4bc8-9350-cc9600697cb7")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 116.84 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "712c3deb-8cd1-4e90-baa0-91feef891904")
+		(property "Reference" "R34"
+			(at 119.38 58.4199 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 119.38 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aacd1fc-93ad-4536-92f4-8b27201f8ecc")
+		)
+		(pin "2"
+			(uuid "5a4531be-89ec-4acc-87a6-a45bd69600c3")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7236170c-e6e2-4f82-9b97-650b031ab40a")
+		(property "Reference" "#PWR087"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6146f49b-05c3-40c3-affa-2285d67e114b")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dfef261-d60d-45f9-b656-9831b145f69c")
+		(property "Reference" "#PWR085"
+			(at 133.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab608472-e1b4-4230-8541-9e13ce8442f7")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "#PWR085")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.24 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84698f85-9d15-4424-bf9e-97f2e3f7f7f9")
+		(property "Reference" "C60"
+			(at 144.78 71.1262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 144.78 73.6662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dcc62f43-be27-4bbb-8342-b7d8fd18814a")
+		)
+		(pin "1"
+			(uuid "ca3d1cd7-8e91-4812-a5cf-cc1f966f4a79")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "C60")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA94")
+		(at 116.84 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89197d5b-c085-4b9e-a6c1-43a8b249eb98")
+		(property "Reference" "Q4"
+			(at 116.84 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBTA94"
+			(at 116.84 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 114.935 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta92.pdf"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.3A Ic, 400V Vce, PNP High Voltage Transistor, SOT-23"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0bde671-1b94-4b23-9657-7631086bc11a")
+		)
+		(pin "3"
+			(uuid "55d0ffd5-4e80-4f3c-9e74-5a4c60327704")
+		)
+		(pin "1"
+			(uuid "e37f5f70-a907-4693-bd83-83faaa7270e4")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 168.91 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d2a5a2b-3b40-422e-a2a8-63819f103527")
+		(property "Reference" "Q7"
+			(at 173.99 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 173.99 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 173.99 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 168.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 168.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "54d5e565-1712-4c3a-a858-52881fe17be6")
+		)
+		(pin "1"
+			(uuid "51692986-811b-4489-a5ba-6aac05443470")
+		)
+		(pin "2"
+			(uuid "f0a2fe79-74d1-4170-a8ff-0135e7035d55")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 116.84 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "978e0d56-286f-4213-aa25-8f79723c9c46")
+		(property "Reference" "R35"
+			(at 119.38 102.8699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 119.38 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4732f504-f17a-4503-a35e-61d08c19a667")
+		)
+		(pin "2"
+			(uuid "6bea66aa-b081-4890-9a18-7b57640515ae")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2474695-a15d-4c2e-b694-2f6710ed76d9")
+		(property "Reference" "#PWR086"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73327047-d0b7-4c08-b057-808d94125c97")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc971cc5-e69a-4dd2-912c-f8bb5b254fc3")
+		(property "Reference" "#PWR089"
+			(at 171.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22960c3d-40b2-48b4-9dc2-61eb9128a044")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "#PWR089")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 161.29 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1528952-4cf8-430f-a8d2-b8b69005db6c")
+		(property "Reference" "R40"
+			(at 161.29 109.22 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100kR"
+			(at 161.29 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74194d1c-540e-4ac3-96cd-d2e4f65f6555")
+		)
+		(pin "2"
+			(uuid "ca602471-f4e0-4452-aff3-4b9d6b6062fa")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 127 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f03871a5-184c-4001-8834-9fa642c07a35")
+		(property "Reference" "Q6"
+			(at 127 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 127 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 128.905 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 127 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 127 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "65263d01-0bb6-45e8-9d5e-6db0a73004e9")
+		)
+		(pin "1"
+			(uuid "1d1fa704-3d3c-4768-b410-cf1d9cf65e5c")
+		)
+		(pin "2"
+			(uuid "9c9c190b-bf0b-4c81-bbae-41b51af80dd1")
+		)
+		(instances
+			(project "ADCS_V2"
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/349f031e-b059-4330-b9c6-e4c699eb7136"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/4236835f-360b-4438-b227-93e27055017f/59313e2f-aa50-44b5-8326-2456bffef391/9a250533-f3ae-4d82-b643-d87c59996df8/879a5e12-72e2-42c9-9e5f-2bd83b2aac64"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,13 @@
+(version 1)
+
+(rule "U16_reduced_clearance"
+  (constraint clearance (min 0.10mm))
+  (condition "A.insideCourtyard('U16') || B.insideCourtyard('U16')")
+)
+
+(rule "U16_reduced_width"
+  (constraint track_width (min 0.10mm))
+  (condition "A.insideCourtyard('U16')")
+)
+
+
