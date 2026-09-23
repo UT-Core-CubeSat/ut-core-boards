@@ -5,7 +5,7 @@
 Owner: [name/team] | PCB revision: [revision] | Last reviewed: [date]
 Board files: [hardware](../hardware/) | Related documents: [links and applicable revisions]
 
-## 1. Purpose & Design
+## 1. Purpose & Design123
 
 What does this board do, and what is handled elsewhere?
 Explain the overall design, why it makes sense, and the main tradeoffs.
