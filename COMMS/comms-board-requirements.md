@@ -4,14 +4,11 @@
 
 The communications board will provide UHF uplink/downlink and S-band downlink capability. UHF will be used for telemetry and command communication, while S-band will be used for payload data downlink
 
-Owner: [name/team] | PCB revision: [revision] | Last reviewed: [date]
-Board files: [link] | Related documents: [links and applicable revisions]
+Owner: Drake/Armando | PCB revision: TBD | Last reviewed: TBD
+Board files: TBD | Related documents: [links and applicable revisions]
 
 ## 1. Purpose & Design
 
-What does this board do, and what is handled elsewhere?
-Explain the overall design, why it makes sense, and the main tradeoffs.
-State any assumptions or dependencies on other boards or firmware.
 
 The communications board will provide communication between the CubeSat and the UHF and S-band ground stations. The UHF system will support command uplink and telemetry downlink, while the S-band will primarily support high-data-rate payload downlink. 
 
@@ -45,18 +42,23 @@ from what this revision supports; mark estimates, unverified values, and TBDs.
 | PCB layer count | TBD | 6-layer board being considered | 
 | Operating environment | TBD | Spacecraft environmental requirements |
 
-Add or remove rows as needed.
+
 
 ## 3. Interfaces
 
-Describe each external connection: what it connects to, the connector
-and mating part, and the pin numbering/orientation.
+
+The Communications Board interfaces with the rest of the CubeSat through the spacecraft CAN bus and power distribution system. It also connects to separate UHF and S-band antennas through two SMA connectors.
 
 ### [Connection Name]
 
 | Pin / signal | Direction* | Function / electrical limits |
 |--------------|------------|------------------------------|
-| | | |
+|CAN_H | Bidirectional | CAN differential high signal |
+| CAN_L | Bidirectional | CAN differential low signal |
+| VIN / Power Rail| Input | Main board power input, voltage TBD |
+| SMA Center | Bidirectional | 50 ohm UHF RF signal, approximately 434-438 MHz |
+| SMA shield| - | RF ground |
+| SMA Center | Bidirectional | 50 Ohm S-band RF signal | 
 
 *Direction is relative to this board. Include unused and reserved pins.*
 
@@ -67,8 +69,13 @@ Include what the other side needs to know:
 - Timing requirements and signal/output states during startup, reset, and power loss.
 - Physical fit and clearance.
 
-Link shared interface documents and identify the revision used.
-Include this board's assignments and any differences here.
+Power and Grounding: 
+Power rails and current limits are TBD. All interfaces will use the CubeSat common ground
+
+Commands and Telemetry: 
+The board will receive radio/control commands over CAN and return communication status and telemtry.
+
+
 
 ## 4. Operation & Limitations
 
@@ -84,4 +91,4 @@ or unresolved questions that affect its use.
 
 Anything important that doesn't fit in the sections above.
 Keep detailed implementation notes and design history in the board files and PRs.
-Delete THIS
+
