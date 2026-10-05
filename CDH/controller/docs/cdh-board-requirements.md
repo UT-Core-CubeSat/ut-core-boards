@@ -1,70 +1,100 @@
 # CDH Controller
 
-[Brief description of what this board does.]
+Coordinates spacecraft operations, processes commands received through COMMS,
+and collects and stores subsystem health and mission data.
 
-Owner: [name/team] | PCB revision: [revision] | Last reviewed: [date]
-Board files: [hardware](../hardware/) | Related documents: [links and applicable revisions]
+Owner: Levi Dockstader | PCB version: v0.6 | Last reviewed: 2026-10-02
+Board files: [hardware](../hardware/) | Related documents: see Section 5.
 
-## 1. Purpose & Design123
+## 1. Purpose & Design
 
-What does this board do, and what is handled elsewhere?
-Explain the overall design, why it makes sense, and the main tradeoffs.
-State any assumptions or dependencies on other boards or firmware.
+CDH coordinates subsystem activity, maintains operating state, processes commands,
+monitors subsystem health, and manages telemetry. EPS supplies and controls power;
+COMMS provides the radio link; ADCS performs attitude control; GNSS supplies
+navigation information.
 
-Include a block diagram showing the main functions and connections.
-Keep detailed implementation notes in the board files and PRs.
+The v0.6 architecture uses two STM32U5A5RJTx controllers with separate
+3.3 V supplies, CAN interfaces, shared peripheral selection, recovery FRAM, and
+bulk eMMC storage. Redundancy adds recovery capability but requires coordinated
+power sequencing and exclusive peripheral ownership.
+
+Only the selected controller issues spacecraft commands or writes to shared
+storage. An inactive controller must not interfere with the selected controller
+or unintentionally power the other supply domain.
+
+```mermaid
+flowchart LR
+    EPS[EPS power] --> CDH[Two CDH controllers]
+    CDH <--> MEM[Shared FRAM / eMMC]
+    CDH <--> CAN[CAN backplane]
+    CAN <--> SUB[Spacecraft subsystems]
+```
 
 ## 2. Specifications
 
-List the requirements and limits that matter for designing and using this
-board. Include units and operating conditions. Distinguish required values
-from what this revision supports; mark estimates, unverified values, and TBDs.
-
-| Specification | Value / limit | Notes |
-|---------------|---------------|-------|
-| Input power | | |
-| Power consumption | | Normal and peak |
-| Outputs / capabilities | | |
-| Performance | | |
-| Dimensions / mounting | | |
-| Operating environment | | |
-
-Add or remove rows as needed.
+| Specification   | Value / limit               | Notes                                      |
+|-----------------|-----------------------------|--------------------------------------------|
+| Input power     | Two nominal 3.3 V supplies  | EPS manages power input                    |
+| Power use       | Estimated consumption TBD   | Establish measured hardware baseline       |
+| Controller      | Two STM32U5A5RJTx devices   | This MCU is our standard controller choice |
+| Communication   | Satellite-wide CAN bus      | Current firmware interface baseline        |
+| Storage         | Three FRAM devices and eMMC | v0.6 includes an 8 GB-designated eMMC      |
+| Performance     | Acceptance conditions TBD   | Monitor speed, power, EMI, and FDIR        |
+| Size / mounting | Match mechanical interface  | Coordinate with structure requirements     |
+| Environment     | See UNP space requirements  | Temperature, radiation, and vacuum limits  |
 
 ## 3. Interfaces
 
-Describe each external connection: what it connects to, the connector
-and mating part, and the pin numbering/orientation.
+### Backplane power and CAN
 
-### [Connection Name]
+The following assignments are the documented v0.6 baseline.
+
+| Pin / signal  | Direction*    | Function / electrical limits              |
+|---------------|---------------|-------------------------------------------|
+| 9 / CDH1_3V3  | Input         | Controller 1 supply, nominal 3.3 V        |
+| 11 / CDH2_3V3 | Input         | Controller 2 supply, nominal 3.3 V        |
+| 36 / GND      | Reference     | System ground                             |
+| 38 / CANL     | Bidirectional | CAN low                                   |
+| 40 / CANH     | Bidirectional | CAN high                                  |
+| Other pins    | TBD           | Check datasheet before assigning new pins |
+
+The schematic lists connector `IPS1-120-01-L-D-RA`. Supply current
+limits, grounding, startup order and CAN termination shall be agreed with the
+backplane/EPS design.
+
+### SWD programming/debug
 
 | Pin / signal | Direction* | Function / electrical limits |
 |--------------|------------|------------------------------|
-| | | |
+| 1 / GND | Reference | System ground |
+| 2 / VREF | Reference | Direct target 3.3 V connection; bypasses protection according to the board documentation |
+| 3 / SWCLK | Input | Debug clock |
+| 4 / SWDIO | Bidirectional | Debug data |
+| 5 / NRST | Reset net | Active-low reset |
 
-*Direction is relative to this board. Include unused and reserved pins.*
+*Direction is relative to CDH.*
 
-Include what the other side needs to know:
-- Power limits, grounding, and startup order.
-- Protocol, speed, addresses, and termination/pull-ups.
-- Commands accepted and data/status provided; link message definitions.
-- Timing requirements and signal/output states during startup, reset, and power loss.
-- Physical fit and clearance.
+### Commands and data
 
-Link shared interface documents and identify the revision used.
-Include this board's assignments and any differences here.
+CHD receives commands through COMMS, sends power requests to EPS, collects
+subsystem heartbeats/health data, requests GNSS information, and routes telemetry
+to COMMS.
 
 ## 4. Operation & Limitations
 
-Explain how the board behaves during:
-- Startup and normal operation.
-- Shutdown, reset, and loss of power or communication.
-- Faults and recovery, including any backup functionality.
-
-Include any setup needed to use the board and any known limitations
-or unresolved questions that affect its use.
+- **Power and startup:** Allowable power supply tolerances need defined. Protection
+  circuitry limits current and voltage spikes. Shared paths between circuits must
+  not backfeed into an unpowered portion of the board.
+- **Controller selection:** Shared-peripheral muxes connect only one controller
+  at a time.
+- **Reset and recovery:** The external watchdog assert the intended MCU's
+  reset input when its input pulses stop.
+- **Storage and power loss:** Power-loss hold-up time and any hardware shutdown
+  indication remain TBD; completion of an in-progress write cannot be assumed 
+  when power is removed.
 
 ## 5. Notes
 
-Anything important that doesn't fit in the sections above.
-Keep detailed implementation notes and design history in the board files and PRs.
+Before relying on recovery or storage, resolve the documented eMMC mapping and
+FRAM communication issues, prototype protection/reset/recovery wiring defects,
+and watchdog-pin and mux-reset conflicts.
