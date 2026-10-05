@@ -18,9 +18,9 @@ The UHF system is intended to support simultaneous transmit and receive operatio
 
 The communications board will depend on the CDH/software system for the command and data handling and on the EPS subsystem for electrical power. Required transmit power, receiver gain, amplifier stages, data rates, and acceptable error rates will be determined through link-budget analysis and component selection. 
 
-Include a block diagram showing the main functions and connections.
-Block diagram still needs to be made.
-Keep detailed implementation notes in the board files and PRs.
+The following diagram shows the preliminary communications board architecture, including the control interface, UHF transmit/receive paths, S-band transmit path, monitoring, and debug interfaces.
+
+[Conceptual Communications Board Block Diagram](Designchoice_1commsblockdiagram.png)
 
 ## 2. Specifications
 
