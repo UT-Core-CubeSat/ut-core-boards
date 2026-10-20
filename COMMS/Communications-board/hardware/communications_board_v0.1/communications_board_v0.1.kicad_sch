@@ -1,0 +1,336 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "77b22a10-fded-410d-8be1-41dec397f473")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 4.826 1084.834)
+		(size 310.388 275.844)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "080750b4-48b1-4bfe-883f-72f31f661521")
+		(property "Sheetname" "S-Band_Frontend"
+			(at 4.826 1084.1224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "S-Band_Frontend.kicad_sch"
+			(at 4.826 1361.2626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "communications_board_v0.1"
+				(path "/77b22a10-fded-410d-8be1-41dec397f473"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.574 2105.914)
+		(size 330.454 268.732)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "400211c7-0970-4015-a6a2-f3624b5ffe8e")
+		(property "Sheetname" "Sensors_Monitoring"
+			(at 20.574 2105.2024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors_Monitoring.kicad_sch"
+			(at 20.574 2375.2306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "communications_board_v0.1"
+				(path "/77b22a10-fded-410d-8be1-41dec397f473"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.574 1761.236)
+		(size 316.23 284.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "72e3a028-89ce-4627-b2f3-6a9cc4af38d8")
+		(property "Sheetname" "PA_Power_Switching"
+			(at 20.574 1760.5244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PA_Power_Switching.kicad_sch"
+			(at 20.574 2046.3006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "communications_board_v0.1"
+				(path "/77b22a10-fded-410d-8be1-41dec397f473"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.256 268.224)
+		(size 281.94 223.012)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9b19688d-e692-4ed3-a358-23a53044468f")
+		(property "Sheetname" "MCU_block"
+			(at 16.256 267.5124 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_block.kicad_sch"
+			(at 16.256 491.8206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "communications_board_v0.1"
+				(path "/77b22a10-fded-410d-8be1-41dec397f473"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.574 1449.324)
+		(size 320.294 273.304)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9bf35586-fe87-4ca5-abfa-127ad73bcefa")
+		(property "Sheetname" "Power_Input"
+			(at 20.574 1448.6124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Input.kicad_sch"
+			(at 20.574 1723.2126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "communications_board_v0.1"
+				(path "/77b22a10-fded-410d-8be1-41dec397f473"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.304 534.162)
+		(size 282.956 238.76)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cfa7d154-d8b4-4bde-9340-873084b31295")
+		(property "Sheetname" "Transceiver"
+			(at 19.304 533.4504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Transceiver.kicad_sch"
+			(at 19.304 773.5066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "communications_board_v0.1"
+				(path "/77b22a10-fded-410d-8be1-41dec397f473"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 4.826 794.512)
+		(size 301.752 241.554)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fa4e8e2f-8125-4d37-9663-35899f62c848")
+		(property "Sheetname" "UHF_Frontend"
+			(at 4.826 793.8004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UHF_Frontend.kicad_sch"
+			(at 4.826 1036.6506 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "communications_board_v0.1"
+				(path "/77b22a10-fded-410d-8be1-41dec397f473"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
