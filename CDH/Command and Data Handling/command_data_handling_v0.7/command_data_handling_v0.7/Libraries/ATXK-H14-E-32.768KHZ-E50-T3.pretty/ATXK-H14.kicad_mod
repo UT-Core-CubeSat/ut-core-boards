@@ -1,0 +1,116 @@
+(footprint "ATXK-H14"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1ae5383c-e3d6-4164-94ff-605df43c20af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ATXK-H14"
+		(at 0 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cbe84d53-51af-4d20-aeec-41ff03452bb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51dc8a30-0290-4415-8395-e7e994760d30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1e8a438-d908-488e-9f0c-5a51ea22cb87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.1 -0.9)
+		(end -1.05 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ef8a903e-63ac-41d4-89ba-eb723f3a7ead")
+	)
+	(fp_rect
+		(start -1.125 -0.725)
+		(end 1.125 0.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0f0a9788-a45e-411e-b45c-c3edc4057841")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8006060a-ef23-416a-a4ce-463198763b3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 -0.35)
+		(size 0.55 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19e8e128-0369-4133-98b7-ca1e4c368bf0")
+	)
+	(pad "2" smd rect
+		(at 0.675 -0.35)
+		(size 0.55 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "583e540a-b7bf-4f8e-8990-4c860f263cd5")
+	)
+	(pad "3" smd rect
+		(at 0.675 0.35)
+		(size 0.55 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "435df7a1-12da-42d0-b1ce-d27fa59919b0")
+	)
+	(pad "4" smd rect
+		(at -0.675 0.35)
+		(size 0.55 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b961a934-e82a-46e7-b1b8-aaf68d24cca6")
+	)
+	(embedded_fonts no)
+)
